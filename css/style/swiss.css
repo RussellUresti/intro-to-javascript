@@ -397,8 +397,6 @@ span.amp {
 .emphasis.call-out {
   color: #c00;
 }
-
-
 .showcase-content {
   border: 1px solid #ddd;
   padding: 10px;
@@ -406,10 +404,50 @@ span.amp {
   box-shadow: 0 0 2px rgba(0,0,0,0.2);
   position: relative;
   float: right;
-  width: 33%;
-  margin: 32px 0 16px 7%;
+  width: 37%;
+  margin: 32px 0 16px 3%;
+}
+.showcase-content pre {
+  margin-bottom: 0;
 }
 .sample-content {
   overflow: hidden;
   zoom: 1;
+}
+
+/* Examples */
+.example {
+  display: none;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  font-size: 80%;
+}
+.on-slide-25 .example.s25,
+.on-slide-26 .example.s26,
+.on-slide-27 .example.s27,
+.on-slide-28 .example.s28,
+.on-slide-29 .example.s29,
+.on-slide-30 .example.s30,
+.on-slide-31 .example.s31,
+.on-slide-33 .example.s33,
+.on-slide-34 .example.s34,
+.on-slide-35 .example.s35,
+.on-slide-37 .example.s37,
+.on-slide-38 .example.s38,
+.on-slide-40 .example.s40,
+.on-slide-42 .example.s42,
+.on-slide-43 .example.s43,
+.on-slide-44 .example.s44,
+.on-slide-45 .example.s45,
+.on-slide-47 .example.s47,
+.on-slide-48 .example.s48,
+.on-slide-49 .example.s49 {
+  display: block;
+  opacity: 1;
+}
+
+/* Temp */
+.goto-form {
+  display: block;
 }

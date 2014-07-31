@@ -101,7 +101,50 @@
     <section class="slide">
       <h2>Data Types and Variables</h2>
       <div class="showcase-content">
-        
+        <pre>
+          <code>
+<span class="example s25">
+20
+</span>
+<span class="example s26">
+"yo"
+</span>
+<span class="example s27">
+true
+</span>
+<span class="example s28">
+function doStuff() { 
+  ... // do stuff
+}
+</span>
+<span class="example s29">
+[0,'a',true]
+</span>
+<span class="example s30">
+{
+  name: 'Russell Uresti',
+  age: 31,
+  location: 'New York'  
+}
+</span>
+<span class="example s31">
+var myNum = 20;
+var myString = "yo";
+var myBool = true;
+var myFunc = function() {
+  ... // do stuff
+};
+var myArray = [0,'a',true];
+var myObj = {
+  name: 'Russell Uresti',
+  age: 31,
+  location: 'New York'
+}
+</span>
+
+
+          </code>
+        </pre>
       </div>
       <div class="sample-content">
         <p><a href="http://jsbin.com/zasiz/2/edit" target="_blank">http://jsbin.com/zasiz/2/edit</a></p>
@@ -121,7 +164,18 @@
     <section class="slide">
       <h2>Statements and Expressions</h2>
       <div class="showcase-content">
-        
+        <pre>
+          <code>
+<span class="example s33">
+// Assign 20 to myVar
+var myVar = 20;
+</span>
+<span class="example s34 s35">
+// Assign 200 to myVar
+var myVar = <span class="emphasis call-out">20 * 10;</span>
+</span>
+          </code>
+        </pre>
       </div>
       <div class="sample-content">
         <p><a href="http://jsbin.com/zasiz/3/edit" target="_blank">http://jsbin.com/zasiz/3/edit</a></p>
@@ -134,7 +188,45 @@
     <section class="slide">
       <h2>Conditionals and Loops</h2>
       <div class="showcase-content">
-        
+        <pre>
+          <code>
+<span class="example s37">
+// if conditional
+if(1 > 0) {
+  // do stuff
+}
+
+// switch conditional
+switch(myVar) {
+  case 0:
+    // do stuff
+    break;
+  case 1:
+    // do other stuff
+    break;
+}
+</span>
+<span class="example s38">
+// for loop
+for(i = 0; i < 100; i++) {
+  // do something 100 times
+}
+
+// do ... while loop
+var i = 0;
+do {
+  // do stuff
+  i++;
+} while (i < 100);
+</span>
+
+
+
+
+
+
+          </code>
+        </pre>
       </div>
       <div class="sample-content">
         <p><a href="http://jsbin.com/zasiz/4/edit" target="_blank">http://jsbin.com/zasiz/4/edit</a></p>
@@ -146,7 +238,18 @@
     <section class="slide">
       <h2>Ternary Statement</h2>
       <div class="showcase-content">
-        
+        <pre>
+          <code>
+<span class="example s40">
+var myVar = 1 > 0 ? 'yes' : 'no';
+
+// variable assignment
+// = (conditional to test) 
+// ? (value to assign if true) 
+// : (value to assign if false)
+</span>
+          </code>
+        </pre>
       </div>
       <div class="sample-content">
         <p><a href="http://jsbin.com/zasiz/5/edit" target="_blank">http://jsbin.com/zasiz/5/edit</a></p>
@@ -157,7 +260,9 @@
     <section class="slide">
       <h2>Array</h2>
       <div class="showcase-content">
-        
+        <img class="example s42" />
+        <img class="example s43" />
+        <img class="example s44 s45" />
       </div>
       <div class="sample-content">
         <p><a href="http://jsbin.com/zasiz/9/edit" target="_blank">http://jsbin.com/zasiz/9/edit</a></p>
@@ -171,7 +276,38 @@
     <section class="slide">
       <h2>Functions</h2>
       <div class="showcase-content">
-        
+        <pre>
+          <code>
+<span class="example s47">
+// define a function
+function myFunc() {
+  // execute code when invoked
+}
+
+// invoke the function
+myFunc();
+</span>
+<span class="example s48">
+// define a function
+function myFunc(<span class="emphasis call-out">param</span>) {
+  // execute code when invoked
+}
+
+// invoke the function
+myFunc(<span class="emphasis call-out">10</span>);
+</span>
+<span class="example s49">
+// define a function
+function myFunc(param) {
+  // execute code when invoked
+  <span class="emphasis call-out">return param * 2;</span>
+}
+
+// invoke the function
+myFunc(10);
+</span>
+          </code>
+        </pre>
       </div>
       <div class="sample-content">
         <p><a href="http://jsbin.com/zasiz/6/edit" target="_blank">http://jsbin.com/zasiz/6/edit</a></p>
