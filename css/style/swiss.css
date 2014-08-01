@@ -405,10 +405,15 @@ span.amp {
   position: relative;
   float: right;
   width: 37%;
-  margin: 32px 0 16px 3%;
+  margin: 5px 0 16px 3%;
 }
 .showcase-content pre {
   margin-bottom: 0;
+}
+.showcase-content img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 .sample-content {
   overflow: hidden;
@@ -423,6 +428,33 @@ span.amp {
   top: 0;
   font-size: 80%;
 }
+img.example {
+  position: static;
+}
+.on-slide-1 .example.s1,
+.on-slide-2 .example.s2,
+.on-slide-3 .example.s3,
+.on-slide-4 .example.s4,
+.on-slide-5 .example.s5,
+.on-slide-6 .example.s6,
+.on-slide-7 .example.s7,
+.on-slide-8 .example.s8,
+.on-slide-9 .example.s9,
+.on-slide-10 .example.s10,
+.on-slide-11 .example.s11,
+.on-slide-12 .example.s12,
+.on-slide-13 .example.s13,
+.on-slide-14 .example.s14,
+.on-slide-15 .example.s15,
+.on-slide-16 .example.s16,
+.on-slide-17 .example.s17,
+.on-slide-18 .example.s18,
+.on-slide-19 .example.s19,
+.on-slide-20 .example.s20,
+.on-slide-21 .example.s21,
+.on-slide-22 .example.s22,
+.on-slide-23 .example.s23,
+.on-slide-24 .example.s24,
 .on-slide-25 .example.s25,
 .on-slide-26 .example.s26,
 .on-slide-27 .example.s27,
@@ -430,24 +462,35 @@ span.amp {
 .on-slide-29 .example.s29,
 .on-slide-30 .example.s30,
 .on-slide-31 .example.s31,
+.on-slide-32 .example.s32,
 .on-slide-33 .example.s33,
 .on-slide-34 .example.s34,
 .on-slide-35 .example.s35,
+.on-slide-36 .example.s36,
 .on-slide-37 .example.s37,
 .on-slide-38 .example.s38,
+.on-slide-39 .example.s39,
 .on-slide-40 .example.s40,
+.on-slide-41 .example.s41,
 .on-slide-42 .example.s42,
 .on-slide-43 .example.s43,
 .on-slide-44 .example.s44,
 .on-slide-45 .example.s45,
+.on-slide-46 .example.s46,
 .on-slide-47 .example.s47,
 .on-slide-48 .example.s48,
-.on-slide-49 .example.s49 {
+.on-slide-49 .example.s49,
+.on-slide-50 .example.s50,
+.on-slide-51 .example.s51,
+.on-slide-52 .example.s52,
+.on-slide-53 .example.s53,
+.on-slide-54 .example.s54,
+.on-slide-55 .example.s55,
+.on-slide-56 .example.s56,
+.on-slide-57 .example.s57,
+.on-slide-58 .example.s58,
+.on-slide-59 .example.s59,
+.on-slide-60 .example.s60 {
   display: block;
   opacity: 1;
-}
-
-/* Temp */
-.goto-form {
-  display: block;
 }
